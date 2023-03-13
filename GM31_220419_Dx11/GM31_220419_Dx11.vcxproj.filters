@@ -1,0 +1,203 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\system h">
+      <UniqueIdentifier>{c1f33340-b348-40c4-a1fe-46b2f527d19f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\system cpp">
+      <UniqueIdentifier>{8b5874fc-b6ab-49a4-a653-f4c2146722c4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\object h">
+      <UniqueIdentifier>{dfa2c889-d926-45bc-8137-2afa426c19d2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\scene h">
+      <UniqueIdentifier>{897378fd-f861-406b-9577-22f0ce9d0ab2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\object cpp">
+      <UniqueIdentifier>{21124200-cb96-4866-a590-e14496efc479}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\scene">
+      <UniqueIdentifier>{0534b15f-1775-470a-b3b6-56d1370e22e1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="common.hlsl">
+      <Filter>Resource Files</Filter>
+    </FxCompile>
+    <FxCompile Include="unlitTexturePS.hlsl">
+      <Filter>Resource Files</Filter>
+    </FxCompile>
+    <FxCompile Include="unlitTextureVS.hlsl">
+      <Filter>Resource Files</Filter>
+    </FxCompile>
+    <FxCompile Include="vertexLightingPS.hlsl">
+      <Filter>Resource Files</Filter>
+    </FxCompile>
+    <FxCompile Include="vertexLightingVS.hlsl">
+      <Filter>Resource Files</Filter>
+    </FxCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="manager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="game.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="audio.cpp">
+      <Filter>Source Files\system cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="camera.cpp">
+      <Filter>Source Files\system cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="input.cpp">
+      <Filter>Source Files\system cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="renderer.cpp">
+      <Filter>Source Files\system cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="enemy.cpp">
+      <Filter>Source Files\object cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="field.cpp">
+      <Filter>Source Files\object cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="model.cpp">
+      <Filter>Source Files\system cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files\system cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="polygon2D.cpp">
+      <Filter>Source Files\object cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="Shadow.cpp">
+      <Filter>Source Files\object cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="result.cpp">
+      <Filter>Source Files\scene</Filter>
+    </ClCompile>
+    <ClCompile Include="ResultLogo.cpp">
+      <Filter>Source Files\scene</Filter>
+    </ClCompile>
+    <ClCompile Include="title.cpp">
+      <Filter>Source Files\scene</Filter>
+    </ClCompile>
+    <ClCompile Include="TitleLogo.cpp">
+      <Filter>Source Files\scene</Filter>
+    </ClCompile>
+    <ClCompile Include="BackGround2D.cpp">
+      <Filter>Source Files\object cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="Score.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="transition.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="player2D.cpp">
+      <Filter>Source Files\object cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="enemy2D.cpp">
+      <Filter>Source Files\object cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerActionBar.cpp">
+      <Filter>Source Files\object cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerStatusBar.cpp">
+      <Filter>Source Files\object cpp</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="manager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="game.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="audio.h">
+      <Filter>Header Files\system h</Filter>
+    </ClInclude>
+    <ClInclude Include="camera.h">
+      <Filter>Header Files\system h</Filter>
+    </ClInclude>
+    <ClInclude Include="main.h">
+      <Filter>Header Files\system h</Filter>
+    </ClInclude>
+    <ClInclude Include="model.h">
+      <Filter>Header Files\system h</Filter>
+    </ClInclude>
+    <ClInclude Include="input.h">
+      <Filter>Header Files\system h</Filter>
+    </ClInclude>
+    <ClInclude Include="enemy.h">
+      <Filter>Header Files\object h</Filter>
+    </ClInclude>
+    <ClInclude Include="polygon2D.h">
+      <Filter>Header Files\object h</Filter>
+    </ClInclude>
+    <ClInclude Include="renderer.h">
+      <Filter>Header Files\system h</Filter>
+    </ClInclude>
+    <ClInclude Include="gameObject.h">
+      <Filter>Header Files\system h</Filter>
+    </ClInclude>
+    <ClInclude Include="field.h">
+      <Filter>Header Files\object h</Filter>
+    </ClInclude>
+    <ClInclude Include="ResultLogo.h">
+      <Filter>Header Files\scene h</Filter>
+    </ClInclude>
+    <ClInclude Include="TitleLogo.h">
+      <Filter>Header Files\scene h</Filter>
+    </ClInclude>
+    <ClInclude Include="Shadow.h">
+      <Filter>Header Files\object h</Filter>
+    </ClInclude>
+    <ClInclude Include="scene.h">
+      <Filter>Header Files\scene h</Filter>
+    </ClInclude>
+    <ClInclude Include="result.h">
+      <Filter>Header Files\scene h</Filter>
+    </ClInclude>
+    <ClInclude Include="title.h">
+      <Filter>Header Files\scene h</Filter>
+    </ClInclude>
+    <ClInclude Include="BackGround2D.h">
+      <Filter>Header Files\object h</Filter>
+    </ClInclude>
+    <ClInclude Include="Score.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="transition.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="player2D.h">
+      <Filter>Header Files\object h</Filter>
+    </ClInclude>
+    <ClInclude Include="enemy2D.h">
+      <Filter>Header Files\object h</Filter>
+    </ClInclude>
+    <ClInclude Include="gameObject2D.h">
+      <Filter>Header Files\system h</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerStatusBar.h">
+      <Filter>Header Files\object h</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerActionBar.h">
+      <Filter>Header Files\object h</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
